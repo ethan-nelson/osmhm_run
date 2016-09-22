@@ -1,0 +1,2 @@
+git+git://github.com/ethan-nelson/osm_hall_monitor.git
+git+git://github.com/ethan-nelson/osmhm_site.git
