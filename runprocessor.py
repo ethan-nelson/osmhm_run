@@ -1,6 +1,6 @@
 import osmhm
 
-def send_grid_example(from, to, subject, message):
+def send_grid_example(to, subject, message):
     import sendgrid
     import os
 
