@@ -1,4 +1,5 @@
 import osmhm
+import osmhm.config
 
 def send_grid_example(to, subject, message):
     import sendgrid
@@ -17,7 +18,7 @@ def send_grid_example(to, subject, message):
         }
       ],
       "from": {
-        "email": from
+        "email": osmhm.config.email_user
       },
       "content": [
         {
